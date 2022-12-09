@@ -1,5 +1,5 @@
 body {
-    background: #205081;
+    background: #000000;
     font-family: 'Cabin', serif;
     font-size: 18px;
 }
@@ -14,6 +14,15 @@ body {
     align-items: center;
 }
 
+.border {
+    border: solid 2px #5fdb50;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 2px;
+    -ms-box-shadow: 5px 5px 2px;
+    box-shadow: 5px 5px 2px;
+}
+
 img {
     height: 20vh;
 }
@@ -21,37 +30,27 @@ img {
 a {
     margin: 30px;
     padding: 20px;
-    -ms-border-radius: 5px;
-    border-radius: 5px;
-    border: solid 2px #1A4067;
-    background: #1A4067;
-    -webkit-box-shadow: 5px 5px 2px #072D54;
-    -ms-box-shadow: 5px 5px 2px #072D54;
-    box-shadow: 5px 5px 2px #072D54;
+    border-color: #5fdb50;
+    background: #5fdb50;
+    color: #64933a;
 }
 
 a:hover {
-    border: solid 2px #092F56;
-    background: #092F56;
-    -webkit-box-shadow: 5px 5px 2px #01274E;
-    -ms-box-shadow: 5px 5px 2px #01274E;
-    box-shadow: 5px 5px 2px #01274E;
+    border-color: #a024af;
+    background: #a024af;
+    color: #7f1d8b;
 }
 
 a:active {
-    border: solid 2px #0B2148;
-    background: #0B2148;
-    -webkit-box-shadow: 5px 5px 2px #041940;
-    -ms-box-shadow: 5px 5px 2px #041940;
-    box-shadow: 5px 5px 2px #041940;
+    border-color: #7f1d8b;
+    background: #7f1d8b;
+    color: #511258;
 }
 
 .unavailable:active {
-    border: solid 2px #E21F1F;
+    border-color: #E21F1F;
     background: #E21F1F;
-    -webkit-box-shadow: 5px 5px 2px #701919;
-    -ms-box-shadow: 5px 5px 2px #701919;
-    box-shadow: 5px 5px 2px #701919;
+    color: #701919;
 }
 
 span {
@@ -61,11 +60,11 @@ span {
     padding: 10px 20px 10px 20px;
     -ms-border-radius: 5px;
     border-radius: 5px;
-    border: solid 2px #092F56;
-    background: #092F56;
-    -webkit-box-shadow: 3px 3px 1px #01274E;
-    -ms-box-shadow: 3px 3px 1px #01274E;
-    box-shadow: 3px 3px 1px #01274E;
+    border: solid 2px #a024af;
+    background: #a024af;
+    -webkit-box-shadow: 3px 3px 1px #7f1d8b;
+    -ms-box-shadow: 3px 3px 1px #7f1d8b;
+    box-shadow: 3px 3px 1px #7f1d8b;
 }
 
 a:hover span {

@@ -23,7 +23,7 @@ jobs:
           REMOTE_HOST: ${{ secrets.SSH_HOST }}
           REMOTE_PORT: ${{ secrets.SSH_PORT }}
           REMOTE_USER: ${{ secrets.SSH_USER }}
-          SOURE: "./"
+          SOURCE: "./"
           TARGET: ${{ secrets.SSH_DEPLOY_PATH }}
       - name: PWD
         run: "ls -al"

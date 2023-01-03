@@ -21,7 +21,6 @@ jobs:
           ARGS: "-rltgoDzvcO -i"
           EXCLUDE: ".git"
           REMOTE_HOST: ${{ secrets.SSH_HOST }}
-          REMOTE_PORT: ${{ secrets.SSH_PORT }}
           REMOTE_USER: ${{ secrets.SSH_USER }}
           TARGET: ${{ secrets.SSH_DEPLOY_PATH }}
           SCRIPT_BEFORE: "ls -al"

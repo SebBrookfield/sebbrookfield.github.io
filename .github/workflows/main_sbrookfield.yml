@@ -20,7 +20,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
           ARGS: "-rltgoDzvcO -i"
           EXCLUDE: ".git"
-          REMOTE_HOST: ${{ secrets.SSH_HOST }}
-          REMOTE_USER: ${{ secrets.SSH_USER }}
-          TARGET: ${{ secrets.SSH_DEPLOY_PATH }}
-          SCRIPT_BEFORE: "ls -al"
+          REMOTE_HOST: "sbrookfield.co.uk"
+          REMOTE_PORT: 5388
+          REMOTE_USER: "github"
+          TARGET: "/var/www/html/website"

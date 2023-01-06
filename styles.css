@@ -33,6 +33,13 @@ main {
   flex-grow: 1;
   display: flex;
   background-color: #EEE;
+  flex-direction: row;
+}
+
+@media all and (max-width: 1000px) {
+  main {
+    flex-direction: column;
+  }
 }
 
 .border {

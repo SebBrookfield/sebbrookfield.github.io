@@ -36,12 +36,6 @@ main {
   flex-direction: row;
 }
 
-@media all and (max-width: 1000px) {
-  main {
-    flex-direction: column;
-  }
-}
-
 .border {
     border: solid 2px #000;
     border-radius: 5px;
